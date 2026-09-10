@@ -1,24 +1,25 @@
-# Awesome macOS Open Source Applications
+# Contributing Guidelines
 
-[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa20e1052e62d3daf5e57917/media/badge.svg)](https://github.com/sindresorhus/awesome)
+Thank you for considering contributing to the Open Source macOS Apps list!
 
-A curated list of awesome open-source macOS applications.
+## How to Add a New App
 
-## Contents
+1. Check if the app is already listed.
+2. Ensure the app is open-source (has a public repository with an OSI-approved open source license).
+3. Ensure the app runs natively on macOS (Swift, SwiftUI, Objective-C, Flutter, Electron, etc.).
+4. Add the app in alphabetical order under the appropriate category.
 
-- [Audio](#audio)
-- [Development](#development)
-- [Utilities](#utilities)
+## Entry Format
 
-## Contributing
+```markdown
+- [App Name](https://repo-url) - Short description. `License` `Language/Framework` 
+```
 
-Contributions are welcome! Please read the guidelines below before submitting a pull request:
+## Pull Request Checklist
 
-1. Fork this repository.
-2. Add the application to the appropriate category in alphabetical order.
-3. Ensure the project is open source and includes a link to its source code repository.
-4. Create a Pull Request with a clear summary of the added application.
+- [ ] The app is open source with a valid license.
+- [ ] Alphabetical order is preserved.
+- [ ] The link to the project repository is working.
+- [ ] The description is concise and accurate.
 
-## License
-
-[![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
+Thank you for keeping this list up to date!
